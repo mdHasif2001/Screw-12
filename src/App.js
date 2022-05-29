@@ -19,6 +19,7 @@ import Notfound from './Pages/Shared/Notfound';
 import Portfolio from './Pages/Blogs/Portfolio';
 import BLog from './Pages/Blogs/BLog';
 import Footer from './Pages/Shared/Footer';
+import Purchase from './Pages/Tools/Purchase';
 
 function App() {
   return (
@@ -27,7 +28,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="appointment" element={
+        <Route path='/service/:serviceId' element={
+          <RequireAuth>
+                    <Purchase></Purchase>
+          </RequireAuth>
+        }></Route>
+
+        <Route path="product" element={
           <RequireAuth>
             <Appointment />
           </RequireAuth>
