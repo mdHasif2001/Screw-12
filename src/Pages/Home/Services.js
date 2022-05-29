@@ -2,34 +2,36 @@ import React from 'react';
 import fluoride from '../../assets/images/fluoride.png';
 import cavity from '../../assets/images/cavity.png';
 import whitening from '../../assets/images/whitening.png';
+import customer from '../../assets/icons/customer.png'
+import revenue from '../../assets/icons/revenue.png';
+import tools from '../../assets/icons/tools.png';
 import Service from './Service';
 
 const Services = () => {
     const services = [
         {
             _id: 1,
-            name: 'Fluoride Treatment',
+            name: '1000+ Customer',
             description: '',
-            img: fluoride
+            img: customer
         },
         {
             _id: 2,
-            name: 'Cavity Filling',
+            name: '150M+ Annual revenue',
             description: '',
-            img: cavity
+            img: revenue
         },
         {
             _id: 3,
-            name: 'Teeth Whitening',
+            name: '75+ Tools',
             description: '',
-            img: whitening
+            img: tools
         },
     ];
     return (
         <div className='my-28'>
             <div className='text-center'>
-                <h3 className='text-primary  text-xl font-bold uppercase'></h3>
-                <h2 className='text-4xl'>Services We Provide</h2>
+                <h3 className='text-primary  text-xl font-bold uppercase'>Business Summary</h3>
             </div>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
                 {
