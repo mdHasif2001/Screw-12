@@ -8,21 +8,24 @@ const Reviews = () => {
         {
             _id: 1,
             name: 'Winson Herry',
-            review: '',
+            review: '5.00',
+            description: 'They provide us wonderful service. I will strongly recommend all of you to purchase all the essential tool from this website',
             location: 'california',
             img: people1
         },
         {
             _id: 2,
             name: 'Winson Herry',
-            review: '',
+            review: '4.00',
+            description: 'The best service I have ever seen in my online marketing experience. I will strongly recommend this website for you.',
             location: 'california',
             img: people2
         },
         {
             _id: 3,
             name: 'Winson Herry',
-            review: '',
+            review: '4.5',
+            description: 'The best thing about the website is they provide very nice services. And the product quality is amazed me soo much.',
             location: 'california',
             img: people3
         },
