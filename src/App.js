@@ -16,6 +16,7 @@ import MyHistory from './Pages/Dashboard/MyHistory';
 import Users from './Pages/Dashboard/Users';
 import RequireAdmin from './Pages/Login/RequireAdmin';
 import Notfound from './Pages/Shared/Notfound';
+import Portfolio from './Pages/Blogs/Portfolio';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<SignUp />} />
         <Route path="*" element={<Notfound></Notfound>}></Route>
+        <Route path="/portfolio" element={<Portfolio></Portfolio>}></Route>
 
       </Routes>
       <ToastContainer />
