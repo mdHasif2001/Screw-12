@@ -17,6 +17,7 @@ import Users from './Pages/Dashboard/Users';
 import RequireAdmin from './Pages/Login/RequireAdmin';
 import Notfound from './Pages/Shared/Notfound';
 import Portfolio from './Pages/Blogs/Portfolio';
+import BLog from './Pages/Blogs/BLog';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
         <Route path="signup" element={<SignUp />} />
         <Route path="*" element={<Notfound></Notfound>}></Route>
         <Route path="/portfolio" element={<Portfolio></Portfolio>}></Route>
+        <Route path="/blog" element={<BLog></BLog>}></Route>
 
       </Routes>
       <ToastContainer />
