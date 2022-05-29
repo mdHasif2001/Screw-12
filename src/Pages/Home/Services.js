@@ -1,7 +1,4 @@
 import React from 'react';
-import fluoride from '../../assets/images/fluoride.png';
-import cavity from '../../assets/images/cavity.png';
-import whitening from '../../assets/images/whitening.png';
 import customer from '../../assets/icons/customer.png'
 import revenue from '../../assets/icons/revenue.png';
 import tools from '../../assets/icons/tools.png';

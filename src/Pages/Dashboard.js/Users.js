@@ -4,7 +4,7 @@ import Loading from '../Shared/Loading';
 import UserRow from '../Dashboard.js/UserRow';
 
 const Users = () => {
-  const { data: users, isLoading, refetch } = useQuery('users', () => fetch('services.json/user', {
+  const { data: users, isLoading, refetch } = useQuery('users', () => fetch('http://localhost:5000/user', {
     method: 'GET',
     headers: {
       authorization: `Beared ${localStorage.getItem('accessToken')}`

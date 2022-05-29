@@ -1,10 +1,10 @@
 import React from 'react';
 import { toast } from 'react-toastify';
 
-const DeleteConfirmModal = ({ deletingDoctor, refetch, setDeletingDoctor }) => {
+const DeleteConfirmModal = ({ deletingDoctor, refetch, setDeletItem }) => {
     const { name, email } = deletingDoctor;
     const handleDelete = () => {
-        fetch(`services.json/doctor/${email}`, {
+        fetch(`http://localhost:5000/doctor/${email}`, {
             method: 'DELETE',
             headers: {
                 authorization: `Bearer ${localStorage.getItem('accessToken')}`
@@ -15,7 +15,7 @@ const DeleteConfirmModal = ({ deletingDoctor, refetch, setDeletingDoctor }) => {
                 console.log(data);
                 if (data.deletedCount) {
                     toast.success(`Doctor: ${name} is deleted.`)
-                    setDeletingDoctor(null);
+                    setDeletItem(null);
                     refetch();
                 }
             })

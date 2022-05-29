@@ -1,134 +1,26 @@
 [
   {
-    "_id": 1,
-    "name": "Teeth Orthodontics",
-    "slots": [
-      "08.00 AM - 08.30 AM",
-      "08.30 AM - 09.00 AM",
-      "09.00 AM - 9.30 AM",
-      "09.30 AM - 10.00 AM",
-      "10.00 AM - 10.30 AM",
-      "10.30 AM - 11.00 AM",
-      "11.00 AM - 11.30 AM",
-      "11.30 AM - 12.00 AM",
-      "1.00 PM - 1.30 PM",
-      "1.30 PM - 2.00 PM",
-      "2.00 PM - 2.30 PM",
-      "2.30 PM - 3.00 PM",
-      "3.00 PM - 3.30 PM",
-      "3.30 PM - 4.00 PM",
-      "4.00 PM - 4.30 PM",
-      "4.30 PM - 5.00 PM"
-    ]
+    "name": "DeWalt 8-Volt Max 1/4-in Cordless Screwdriver Kit with Battery and Charger - 4-Amp Motor - Variable Speed",
+    "img": "https://i.ibb.co/8Bb4ZVp/a22.png",
+     "Description": "High quality product. With most effective major.",
+     "MinimumQuantity": "250",
+     "AvailableQuantity": "7500",
+      "Price": "85$"
   },
   {
-    "_id": 2,
-    "name": "Cosmetic Dentistry",
-    "slots": [
-      "08.00 AM - 08.30 AM",
-      "08.30 AM - 09.00 AM",
-      "09.00 AM - 9.30 AM",
-      "09.30 AM - 10.00 AM",
-      "10.00 AM - 10.30 AM",
-      "10.30 AM - 11.00 AM",
-      "11.00 AM - 11.30 AM",
-      "11.30 AM - 12.00 AM",
-      "1.00 PM - 1.30 PM",
-      "1.30 PM - 2.00 PM",
-      "2.00 PM - 2.30 PM",
-      "2.30 PM - 3.00 PM",
-      "3.00 PM - 3.30 PM",
-      "3.30 PM - 4.00 PM",
-      "4.00 PM - 4.30 PM",
-      "4.30 PM - 5.00 PM"
-    ]
+    "name": "DEKOPRO Cordless Screwdriver, 3.6V Electric Screwdriver Household Battery Rechargeable Drill Driver Power",
+    "img": "https://i.ibb.co/PDMHr1w/a11.png",
+     "Description": "Best product around business world. ",
+     "MinimumQuantity": "150",
+     "AvailableQuantity": "6500",
+      "Price": "87$"
   },
   {
-    "_id": 3,
-    "name": "Teeth Cleaning",
-    "slots": [
-      "08.00 AM - 08.30 AM",
-      "08.30 AM - 09.00 AM",
-      "09.00 AM - 9.30 AM",
-      "09.30 AM - 10.00 AM",
-      "10.00 AM - 10.30 AM",
-      "10.30 AM - 11.00 AM",
-      "11.00 AM - 11.30 AM",
-      "11.30 AM - 12.00 AM",
-      "1.00 PM - 1.30 PM",
-      "1.30 PM - 2.00 PM",
-      "2.00 PM - 2.30 PM",
-      "2.30 PM - 3.00 PM",
-      "3.00 PM - 3.30 PM",
-      "3.30 PM - 4.00 PM",
-      "4.00 PM - 4.30 PM",
-      "4.30 PM - 5.00 PM"
-    ]
-  },
-  {
-    "_id": 4,
-    "name": "Cavity Protection",
-    "slots": [
-      "08.00 AM - 08.30 AM",
-      "08.30 AM - 09.00 AM",
-      "09.00 AM - 9.30 AM",
-      "09.30 AM - 10.00 AM",
-      "10.00 AM - 10.30 AM",
-      "10.30 AM - 11.00 AM",
-      "11.00 AM - 11.30 AM",
-      "11.30 AM - 12.00 AM",
-      "1.00 PM - 1.30 PM",
-      "1.30 PM - 2.00 PM",
-      "2.00 PM - 2.30 PM",
-      "2.30 PM - 3.00 PM",
-      "3.00 PM - 3.30 PM",
-      "3.30 PM - 4.00 PM",
-      "4.00 PM - 4.30 PM",
-      "4.30 PM - 5.00 PM"
-    ]
-  },
-  {
-    "_id": 5,
-    "name": "Pediatric Dental",
-    "slots": [
-      "08.00 AM - 08.30 AM",
-      "08.30 AM - 09.00 AM",
-      "09.00 AM - 9.30 AM",
-      "09.30 AM - 10.00 AM",
-      "10.00 AM - 10.30 AM",
-      "10.30 AM - 11.00 AM",
-      "11.00 AM - 11.30 AM",
-      "11.30 AM - 12.00 AM",
-      "1.00 PM - 1.30 PM",
-      "1.30 PM - 2.00 PM",
-      "2.00 PM - 2.30 PM",
-      "2.30 PM - 3.00 PM",
-      "3.00 PM - 3.30 PM",
-      "3.30 PM - 4.00 PM",
-      "4.00 PM - 4.30 PM",
-      "4.30 PM - 5.00 PM"
-    ]
-  },
-  {
-    "_id": 6,
-    "name": "Oral Surgery",
-    "slots": [
-      "08.00 AM - 08.30 AM",
-      "08.30 AM - 09.00 AM",
-      "09.00 AM - 9.30 AM",
-      "09.30 AM - 10.00 AM",
-      "10.00 AM - 10.30 AM",
-      "10.30 AM - 11.00 AM",
-      "11.00 AM - 11.30 AM",
-      "11.30 AM - 12.00 AM",
-      "1.00 PM - 1.30 PM",
-      "1.30 PM - 2.00 PM",
-      "2.00 PM - 2.30 PM",
-      "2.30 PM - 3.00 PM",
-      "3.00 PM - 3.30 PM",
-      "3.30 PM - 4.00 PM",
-      "4.00 PM - 4.30 PM",
-      "4.30 PM - 5.00 PM"
-    ]
+    "name": "ENERTWIST Cordless Screwdriver, 8V Max 10Nm Electric Screwdriver Rechargeable Set with 82 Accessory Kit",
+    "img": "https://i.ibb.co/Qcyhqkf/a33.png",
+     "Description": "Thick, strong, tough. Best product so far.",
+     "MinimumQuantity": "350",
+     "AvailableQuantity": "12000",
+      "Price": "99$"
   }
 ]
