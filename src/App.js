@@ -15,6 +15,7 @@ import MyReview from './Pages/Dashboard/MyReview';
 import MyHistory from './Pages/Dashboard/MyHistory';
 import Users from './Pages/Dashboard/Users';
 import RequireAdmin from './Pages/Login/RequireAdmin';
+import Notfound from './Pages/Shared/Notfound';
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
         </Route>
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<SignUp />} />
+        <Route path="*" element={<Notfound></Notfound>}></Route>
+
       </Routes>
       <ToastContainer />
     </div>
