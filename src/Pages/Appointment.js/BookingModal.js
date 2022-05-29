@@ -22,7 +22,7 @@ const BookingModal = ({ date, treatment, setTreatment }) => {
             phone: event.target.phone.value
         }
 
-        fetch('http://localhost:5000/booking', {
+        fetch('services.json/booking', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -31,10 +31,10 @@ const BookingModal = ({ date, treatment, setTreatment }) => {
         })
             .then(res => res.json())
             .then(data => {
-                if(data.success){
+                if (data.success) {
                     toast(`Appointment is set, ${formattedDate} at ${slot}`)
                 }
-                else{
+                else {
                     toast.error(`Already have and appointment on ${data.booking?.date} at ${data.booking?.slot}`)
                 }
                 setTreatment(null);
