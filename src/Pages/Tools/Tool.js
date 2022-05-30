@@ -1,6 +1,5 @@
 import React from 'react';
-import PrimaryButton from '../Shared/PrimaryButton';
-import { Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 
 const Tool = ({ myTool }) => {
