@@ -1,6 +1,5 @@
 import React from 'react';
 import Banner from './Banner';
-// import Footer from '../Shared/Footer';
 import Services from './Services';
 import Reviews from './Reviews';
 import Info from './Info';

@@ -4,13 +4,11 @@ import { Routes, Route, Link } from "react-router-dom";
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
 import Login from './Pages/Login/Login';
-import Appointment from './Pages/Appointment/Appointment';
 import SignUp from './Pages/Login/SignUp';
 import RequireAuth from './Pages/Login/RequireAuth';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Dashboard from './Pages/Dashboard/Dashboard';
-import MyAppointments from './Pages/Dashboard/MyAppointments';
 import MyReview from './Pages/Dashboard/MyReview';
 import MyProfile from './Pages/Dashboard/MyProfile';
 import Users from './Pages/Dashboard/Users';
@@ -20,6 +18,7 @@ import Portfolio from './Pages/Blogs/Portfolio';
 import BLog from './Pages/Blogs/BLog';
 import Footer from './Pages/Shared/Footer';
 import Purchase from './Pages/Tools/Purchase';
+import Product from './Pages/Tools/Product';
 
 function App() {
   return (
@@ -28,19 +27,14 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
+        <Route path="product" element={<Product></Product>} />
         <Route path='/service/:serviceId' element={
           <RequireAuth>
-                    <Purchase></Purchase>
+            <Purchase></Purchase>
           </RequireAuth>
         }></Route>
 
-        <Route path="product" element={
-          <RequireAuth>
-            <Appointment />
-          </RequireAuth>
-        } />
         <Route path="dashboard" element={<RequireAuth><Dashboard /></RequireAuth>} >
-          <Route index element={<MyAppointments></MyAppointments>}></Route>
           <Route path="review" element={<MyReview></MyReview>}></Route>
           <Route path="history" element={<MyProfile></MyProfile>}></Route>
           <Route path="users" element={<RequireAdmin><Users></Users></RequireAdmin>}></Route>

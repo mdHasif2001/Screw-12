@@ -33,7 +33,9 @@ const Purchase = () => {
               placeholder='Address'
               className='input w-full max-w-md'
             />
+            <Link to='/dashboard'>
             <PrimaryButton>Add To Cart</PrimaryButton>
+            </Link>
           </div>
         </div>
         );
